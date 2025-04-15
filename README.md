@@ -229,18 +229,49 @@ The notebook is divided into sections exploring random walks in increasing dimen
 ### 2. Two-Dimensional Random Walk
 
 -   **Simulation & Plotting:** Simulating and plotting a 2D walk using `matplotlib` and `plotly`.
+  
+    <img src="https://github.com/user-attachments/assets/d45c7cda-ec72-4968-8ecd-675e6c2b2ce1" width="500"/>
+
 -   **Contour Plot:** Visualizing the density of visited locations.
+-   
+    <img src="https://github.com/user-attachments/assets/8ed6875c-85c8-4ad7-9f0d-54f4ac786bf9" width="500"/>
+
 -   **Quadrant Analysis:** Tracking the proportion of time spent in each quadrant.
+
+    <img src="https://github.com/user-attachments/assets/fdd6a328-e00a-402e-ad9e-fff24db974fb" width="500"/>
+
 -   **Quadrant Analysis with Animation:** Animating the walk and the evolving quadrant distribution.
 -   **Analysis with Contour Plot and Heatmap:** Combined visualization of path and visit frequency.
+
+    <img src="https://github.com/user-attachments/assets/34cde103-e578-4ae5-a0b9-3c784183cde2" width="500"/>
+
 -   **Distribution of Walker's Position:** Analyzing the 2D distribution of positions over multiple trials.
+
+    <img src="https://github.com/user-attachments/assets/5f32fd78-0a88-475e-acbd-08219af0db1c" width="500"/>
+
 -   **Distribution of Final Position:** Visualizing where walkers end up after N steps.
+
+    <img src="https://github.com/user-attachments/assets/21de1588-f84a-4d46-b950-4ba336fb7743" width="500"/>
+
 -   **Animation:** Basic animation of the 2D random walk path.
+
+   <img src="https://github.com/user-attachments/assets/e02a0934-60cd-439f-bdc5-8dd97c117847" width="500"/>
+
 -   **Animation with Position Frequency:** Animating the walk alongside a heatmap of visited positions.
 -   **Step Size Comparison:** Analyzing walks with different step lengths.
+
+    <img src="https://github.com/user-attachments/assets/03358d93-d4fe-4f36-ae1c-af3ee6062945" width="500"/>
+
 -   **2D Biased Random Walk:** Implementing bias in movement directions (e.g., tendency to move North-East).
 -   **Comparison with/without Bias:** Visual comparison of biased vs. unbiased walks.
+  
+     <img src="https://github.com/user-attachments/assets/29e8d530-cbc8-485a-8123-4f206d0aade2" width="500"/>
+
 -   **Biased Walk with Different Probabilities:** Exploring various bias configurations.
+  
+    https://github.com/user-attachments/assets/153b125c-b623-470b-95dd-7ad743d186fb
+
+
 
 ### 3. Three-Dimensional Random Walk
 
