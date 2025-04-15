@@ -8,6 +8,19 @@
 
 A comprehensive collection of random walk simulations in 1D, 2D, and 3D with interactive visualizations, animations, and statistical analysis.
 
+<table>
+  <tr>
+    <th>1D Random Walk</th>
+    <th>2D Random Walk</th>
+    <th>3D Random Walk</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/618ce516-88ed-4921-9fa9-f0f14c87475c" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1ed5ccb8-1146-4921-9354-ab104001f386" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/eb71af9f-604f-4b25-8e4e-491bd912776b" width="300"/></td>
+  </tr>
+</table>
+
 ## 📚 Table of Contents
 
 - [📘 Introduction](#introduction)
@@ -183,15 +196,15 @@ The notebook is divided into sections exploring random walks in increasing dimen
 
 -   **Simulation:** Basic simulation of a single 1D random walk.
   
-    ![1Drdwalk_2](https://github.com/user-attachments/assets/0c14cd17-b715-427e-a320-e031fc0c28b1)
+    <img src="https://github.com/user-attachments/assets/0c14cd17-b715-427e-a320-e031fc0c28b1" width="500"/>
     
 -   **Analysis:** Calculating displacement and distance from the origin.
   
-    ![1Drdwalk_analysis_1](https://github.com/user-attachments/assets/7c5b3bdf-4373-4422-beb8-7ebde2d88f5e)
+    <img src="https://github.com/user-attachments/assets/7c5b3bdf-4373-4422-beb8-7ebde2d88f5e" width="500"/>
     
 -   **Multiple Trials:** Running simulations multiple times to observe average behaviour.
   
-    ![1Drdwalk_trials](https://github.com/user-attachments/assets/f9338e2d-2478-441a-bf28-cac245ab6b31)
+    <img src="https://github.com/user-attachments/assets/f9338e2d-2478-441a-bf28-cac245ab6b31" width="500"/>
     
 -   **Biased Random Walk:** Introducing probabilities for moving left or right.
 
@@ -201,14 +214,17 @@ The notebook is divided into sections exploring random walks in increasing dimen
    
 -   **Mean and Standard Deviation Analysis:** Examining how mean position and standard deviation evolve.
   
-    ![MeanNStd](https://github.com/user-attachments/assets/9ca67b0d-445b-4bbe-8e11-c22f28cdb968)
+    <img src="https://github.com/user-attachments/assets/9ca67b0d-445b-4bbe-8e11-c22f28cdb968" width="500"/>
 
 -   **Distribution of Walker's Position:** Visualizing the probability distribution of the walker's position after N steps.
   
-    ![rdwalk_pos_dist](https://github.com/user-attachments/assets/b1765a36-6666-409d-b003-18a9cec7c085)
+    <img src="https://github.com/user-attachments/assets/b1765a36-6666-409d-b003-18a9cec7c085" width="500"/>
 
 -   **Animation:** Animating the 1D random walk.
 -   **Animation with Position Distribution:** Animating the walk alongside its evolving position distribution.
+  
+    https://github.com/user-attachments/assets/16632f80-47e6-4004-bcc5-fdd6bf63c350
+
 
 ### 2. Two-Dimensional Random Walk
 
