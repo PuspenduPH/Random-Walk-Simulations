@@ -241,7 +241,10 @@ The notebook is divided into sections exploring random walks in increasing dimen
     <img src="https://github.com/user-attachments/assets/fdd6a328-e00a-402e-ad9e-fff24db974fb" width="500"/>
 
 -   **Quadrant Analysis with Animation:** Animating the walk and the evolving quadrant distribution.
--   **Analysis with Contour Plot and Heatmap:** Combined visualization of path and visit frequency.
+
+    <img src="https://github.com/user-attachments/assets/2a0383c2-5b88-45d3-8e14-c35b725ce54c" width="500"/>
+    
+-   **Analysis with Contour Plot and Heatmap:** Combined visualisation of path and visit frequency.
 
     <img src="https://github.com/user-attachments/assets/34cde103-e578-4ae5-a0b9-3c784183cde2" width="500"/>
 
@@ -249,7 +252,7 @@ The notebook is divided into sections exploring random walks in increasing dimen
 
     <img src="https://github.com/user-attachments/assets/5f32fd78-0a88-475e-acbd-08219af0db1c" width="500"/>
 
--   **Distribution of Final Position:** Visualizing where walkers end up after N steps.
+-   **Distribution of Final Position:** Visualising where walkers end up after N steps.
 
     <img src="https://github.com/user-attachments/assets/21de1588-f84a-4d46-b950-4ba336fb7743" width="500"/>
 
@@ -259,9 +262,7 @@ The notebook is divided into sections exploring random walks in increasing dimen
 
 -   **Animation with Position Frequency:** Animating the walk alongside a heatmap of visited positions.
 
-    <img src="https://github.com/user-attachments/assets/2a0383c2-5b88-45d3-8e14-c35b725ce54c" width="500"/>
-
--   **Step Size Comparison:** Analyzing walks with different step lengths.
+-   **Step Size Comparison:** Analysing walks with different step lengths.
 
     <img src="https://github.com/user-attachments/assets/03358d93-d4fe-4f36-ae1c-af3ee6062945" width="700"/>
 
@@ -283,7 +284,8 @@ The notebook is divided into sections exploring random walks in increasing dimen
 
 -   **Biased Walk with Different Probabilities:** Exploring various bias configurations.
   
-    https://github.com/user-attachments/assets/153b125c-b623-470b-95dd-7ad743d186fb
+    https://github.com/user-attachments/assets/a16e3151-153d-43fd-8698-a5d7b544cf6e
+
 
 ### 3. Three-Dimensional Random Walk
 
