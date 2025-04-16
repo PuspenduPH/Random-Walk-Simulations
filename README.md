@@ -91,8 +91,8 @@ You can follow these steps to set up your environment and run the notebook.
 ### 🧬 Cloning the Repository
 
 ```bash
-git clone <your-repository-url> # Replace <your-repository-url> with the actual URL
-cd <repository-directory-name> # Navigate into the cloned directory
+git clone https://github.com/PuspenduPH/Random-Walk-Simulations
+cd Random-Walk-Simulations
 ```
 
 ### 🧰 Setting Up a Virtual Environment (Recommended)
@@ -162,7 +162,7 @@ This notebook contains interactive visualizations, animations, and data manipula
     %matplotlib ipympl  # For displaying animations
     %matplotlib widget  # For interactive widgets
     ```
-  - **Tip:** Use only one magic command in a cell depending on your requirements.
+  - **Tip:** Use only one magic command in a cell, depending on your requirements. If you need any help installing `ipympl` yo can follow this [link](https://discourse.jupyter.org/t/matplotlib-animation-not-appearing-in-jupyter-notebook/24938?u=puspendu24)
 
 - **Saving Animations as .mp4:**
   - **Install FFmpeg:**  
@@ -255,34 +255,70 @@ The notebook is divided into sections exploring random walks in increasing dimen
 
 -   **Animation:** Basic animation of the 2D random walk path.
 
-   <img src="https://github.com/user-attachments/assets/e02a0934-60cd-439f-bdc5-8dd97c117847" width="500"/>
+   <img src="https://github.com/user-attachments/assets/e02a0934-60cd-439f-bdc5-8dd97c117847" width="700"/>
 
 -   **Animation with Position Frequency:** Animating the walk alongside a heatmap of visited positions.
+
+    <img src="https://github.com/user-attachments/assets/2a0383c2-5b88-45d3-8e14-c35b725ce54c" width="500"/>
+
 -   **Step Size Comparison:** Analyzing walks with different step lengths.
 
-    <img src="https://github.com/user-attachments/assets/03358d93-d4fe-4f36-ae1c-af3ee6062945" width="500"/>
+    <img src="https://github.com/user-attachments/assets/03358d93-d4fe-4f36-ae1c-af3ee6062945" width="700"/>
 
 -   **2D Biased Random Walk:** Implementing bias in movement directions (e.g., tendency to move North-East).
+    <table>
+    <tr>
+      <th>2D Random Walk with a Angular Bias</th>
+      <th>2D Random Walk with a Target Bias</th>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/bc500848-459e-4e58-bf7b-1789f4b49497" width="400"/></td>
+      <td><img src="https://github.com/user-attachments/assets/16bcd748-8ea3-47bb-a275-a395bc8e6653" width="400"/></td>
+    </tr>
+    </table>
+    
 -   **Comparison with/without Bias:** Visual comparison of biased vs. unbiased walks.
   
-     <img src="https://github.com/user-attachments/assets/29e8d530-cbc8-485a-8123-4f206d0aade2" width="500"/>
+     <img src="https://github.com/user-attachments/assets/29e8d530-cbc8-485a-8123-4f206d0aade2" width="700"/>
 
 -   **Biased Walk with Different Probabilities:** Exploring various bias configurations.
   
     https://github.com/user-attachments/assets/153b125c-b623-470b-95dd-7ad743d186fb
 
-
-
 ### 3. Three-Dimensional Random Walk
 
 -   **Simulation (Single Trial):** Simulating and visualizing a single walk in 3D space using `matplotlib` or `plotly`.
+
+    https://github.com/user-attachments/assets/f0728582-78bf-45a4-8789-2947f319387a
+  
 -   **Simulation (Multiple Trials):** Running and analyzing multiple 3D walks.
+  
+    https://github.com/user-attachments/assets/f4ea04f4-0d1b-4b2d-af73-c203520bb87b
+
 -   **Multiple Trials with Different Initial Positions:** Simulating walkers starting from various points.
+
+    https://github.com/user-attachments/assets/9ec8c5aa-58d6-45a8-be18-0b070c35d0be
+  
 -   **Distribution of Walker's Final Position:** Visualizing the 3D distribution of endpoints.
 -   **Simultaneous Random Walk:** Animating multiple walks concurrently.
+
+  <img src="https://github.com/user-attachments/assets/31d61771-2eac-4ec5-ad30-3b0bddff73de" width="500"/>
+
 -   **Biased Random Walk:** Introducing directional bias in 3D steps.
+   
+     -  **3D Random Walk with Target Bias**
+       
+        https://github.com/user-attachments/assets/be48df11-e020-40f2-872d-8c82981b2da9
+        
+     - **3D Random Walk with Angular Bias**
+       
+        https://github.com/user-attachments/assets/a0a9f33b-b822-4a9b-9b7c-6b1aba4df66c
+    
 -   **Visualize Biased Walks with IpyWidgets:** Using widgets to explore different bias parameters interactively.
 -   **Comparison with/without Bias:** Comparing trajectories of biased and unbiased 3D walks.
+
+    https://github.com/user-attachments/assets/dd0b5b25-ae63-40d7-a4a5-dd3b38d55ce2
+
 
 ## 🎞️ Animation & Visual Assets
 
@@ -293,9 +329,8 @@ Animations and visual outputs are organized into separate directories by dimensi
 - **ANIMATION/3D/** – Animations for 3D random walk.
 - **IMAGES/1D/**, **IMAGES/2D/**, **IMAGES/3D/** – Supporting images and figures.
 
-Please feel free to add, update, or replace assets as your experiments change.
+Please add, update, or replace assets as your experiments change.
 
----
 
 ## 📊 Statistics and Analysis
 
@@ -331,10 +366,10 @@ Statistical investigations included in the notebook:
 - [Jupyter ipympl Documentation](https://jupyter-matplotlib.readthedocs.io/en/latest/)
 - [FFmpeg Installation](https://ffmpeg.org/download.html)
 - [Wikipedia: Random Walk](https://en.wikipedia.org/wiki/Random_walk)
-- Lawler, G. F., & Limic, V. (2010). [Random walk: a modern introduction](https://www.cambridge.org/core/books/random-walk/4F74E8A6F7D12BA0A4120EAA269FF301) (Vol. 123). Cambridge University Press.
-- Mörters, P., & Peres, Y. (2010). [Brownian motion](https://www.cambridge.org/core/books/brownian-motion/6F65008C62F2BDAC07C8DAA53CB7D6B7) (Vol. 30). Cambridge University Press.
-- Spitzer, F. (2013). [Principles of random walk](https://link.springer.com/book/10.1007/978-1-4613-9413-0) (Vol. 34). Springer Science & Business Media.
-- Rudnick, J., & Gaspari, G. (2004). [Elements of the random walk](https://www.cambridge.org/core/books/elements-of-the-random-walk/1217EF4C1DD11B790B1B2DA2550AE007): an introduction for advanced students and researchers. Cambridge University Press.
+- Lawler, G. F., & Limic, V. (2010). [Random walk: a modern introduction](https://www.math.uchicago.edu/~lawler/srwbook.pdf) (Vol. 123). Cambridge University Press.
+- Mörters, P., & Peres, Y. (2010). [Brownian motion](http://www.mi.uni-koeln.de/~moerters/book/book.pdf) (Vol. 30). Cambridge University Press.
+- Spitzer, F. (2013). [Principles of random walk](https://link.springer.com/book/10.1007/978-1-4757-4229-9) (Vol. 34). Springer Science & Business Media.
+- Bhattacharyya, Arka et al. [“A Brief Study on Simple Random Walk in 1D.”](https://www.ias.ac.in/article/fulltext/reso/028/06/0945-0958) Resonance 28 (2023): 945 - 958.
 
 ## 🤝 Contributing
 
