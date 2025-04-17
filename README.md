@@ -269,12 +269,12 @@ The notebook is divided into sections exploring random walks in increasing dimen
 -   **2D Biased Random Walk:** Implementing bias in movement directions (e.g., tendency to move North-East).
     <table>
     <tr>
-      <th>2D Random Walk with a Angular Bias</th>
-      <th>2D Random Walk with a Target Bias</th>
+      <th>2D Random Walk with Angular Bias</th>
+      <th>2D Random Walk with Target Bias</th>
     </tr>
     <tr>
-      <td><img src="https://github.com/user-attachments/assets/bc500848-459e-4e58-bf7b-1789f4b49497" width="400"/></td>
-      <td><img src="https://github.com/user-attachments/assets/16bcd748-8ea3-47bb-a275-a395bc8e6653" width="400"/></td>
+      <td><img src="https://github.com/user-attachments/assets/3302a484-e7d3-40d7-833b-8631c9a814df" width="400"/></td>
+      <td><img src="https://github.com/user-attachments/assets/8fe2fec9-7093-4cdb-a302-3b84a086dd12" width="400"/></td>
     </tr>
     </table>
     
@@ -316,10 +316,10 @@ The notebook is divided into sections exploring random walks in increasing dimen
        
         https://github.com/user-attachments/assets/a0a9f33b-b822-4a9b-9b7c-6b1aba4df66c
     
--   **Visualize Biased Walks with IpyWidgets:** Using widgets to explore different bias parameters interactively.
+-   **Visualise Biased Walks with IpyWidgets:** Using widgets to explore different bias parameters interactively.
 -   **Comparison with/without Bias:** Comparing trajectories of biased and unbiased 3D walks.
-
-    https://github.com/user-attachments/assets/dd0b5b25-ae63-40d7-a4a5-dd3b38d55ce2
+  
+    https://github.com/user-attachments/assets/27d2e672-207c-4e7f-9c03-6966bf47e960
 
 
 ## 🎞️ Animation & Visual Assets
