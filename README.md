@@ -73,7 +73,7 @@ A random walk is a mathematical object, known as a stochastic or random process,
 │   ├── 🖼️ 2D/         # Static plots for 2D walks (.png, .jpg)
 │   └── 🖼️ 3D/         # Static plots for 3D walks (.png, .jpg)
 ├── 📊 STATISTICS/     # Optional: CSV or other files with statistical results
-├── 🧪 random_walk_notebook.ipynb  # The main Jupyter Notebook file
+├── 🧪 RandomWalk.ipynb  # The main Jupyter Notebook file
 ├── 📦 requirements.txt # List of required Python packages
 └── 📄 README.md       # This file
 ```
